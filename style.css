@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: bolder;
+    font-weight: 400;
+    font-style: normal;
+    
+    
+}
+
+
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 5%;
+    background: url('');
+    background-position: center;
+    background-size: cover;
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+    /* text-align: center; */
+}
+
+h1 {
+    
+    font-size: 8em;
+    margin-block-start: .67em;
+    margin-block-end: 2.7em;
+    margin-inline-start: 313px;
+    margin-inline-end:-260px;
+    font-weight: bolder ;
+    unicode-bidi: isolate;
+    color: 	#807d7d;
+}
+
+h2 {
+    font-family: "Mate", serif;
+    font-size: 3em;
+    margin-block-start: 0.69em;
+    margin-block-end: 5.90em;
+    margin-inline-start: 120px;
+    margin-inline-end:-390px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+    color: #ffffff;
+}
+
+.search-bar {
+    width: 50%;
+    max-width: 500px;
+    background: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+    padding: 1px 10px;
+    backdrop-filter: blur(4px) saturate(180%);
+}
+
+.search-bar input {
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    padding: 24px 50px;
+    font-size: 20px;
+    color: #000000;
+}
+
+::placeholder {
+    color: #000000;
+    padding: 3px;
+}
+
+.search-bar button {
+    border: 0;
+    border-radius: 30%;
+    width: 60px;
+    height: 60px;
+    background: #000000;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar button i {
+    color: #ffffff;
+}
+
+.background-clip {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.logo-box{
+    text-align: center;
+}
+
+
+.logo{
+    width: 250px;
+    height: 220px;
+    
+    /* display: block; */
+}
+
+.search-box{
+    display: flex;
+    justify-content: center;
+}
+
+.LogoX{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    margin:-1%;
+}
+
+@media (min-aspect-ratio:16/9) {
+    .background-clip {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9) {
+    .background-clip {
+        width: auto;
+        height: 100%;
+    }
+}
+  
